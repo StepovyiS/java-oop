@@ -1,9 +1,9 @@
 public class Studentlist {
-    public String surename;
-    public Studentlist(String surename){
-        this.surename= surename;
+    public int dateofBirth;
+    public Studentlist(int dateofBirth){
+        this.dateofBirth= dateofBirth;
     }
-    public String getSurename(){
-        return surename;
+    public int getDateofBirth(){
+        return dateofBirth;
     }
 }

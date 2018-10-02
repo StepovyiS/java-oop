@@ -1,9 +1,16 @@
-public class Studentlist {
-    public int dateofBirth;
-    public Studentlist(int dateofBirth){
-        this.dateofBirth= dateofBirth;
-    }
-    public int getDateofBirth(){
-        return dateofBirth;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+class StudentList {
+    public List<Student> studentList;
+    public void AddStudent(){
+        Student student = new Student();
+        ArrayList studentsList = new ArrayList();
+        studentsList.add(student);
+
     }
 }
+
+

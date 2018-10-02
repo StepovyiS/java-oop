@@ -1,6 +1,6 @@
-public class Students {
+public class Studentlist {
     public String surename;
-    public Students(String surename){
+    public Studentlist(String surename){
         this.surename= surename;
     }
     public String getSurename(){
